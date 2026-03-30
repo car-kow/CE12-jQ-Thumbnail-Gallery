@@ -61,7 +61,7 @@ header h1 {
    Rounded corners and shadow help it stand out.
    overflow: hidden keeps the image clipped to the rounded corners. */
 .featured-project {
-  background-color: #ffffff;
+  background-color: lightgreen;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09);
@@ -92,6 +92,7 @@ header h1 {
 /* Style the featured project description. */
 .featured-text p {
   margin-bottom: 0;
+  font-style: italic;
   color: #4a5568;
 }
 
@@ -121,7 +122,7 @@ header h1 {
 .thumb-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 1rem;
+  gap: .5rem;
 }
 
 /* Style each thumbnail image.
@@ -147,7 +148,7 @@ header h1 {
 /* Highlight the currently selected thumbnail.
    This class is added and removed with jQuery. */
 .thumb.active {
-  border-color: #805ad5;
+  border-color: green;
   box-shadow: 0 8px 20px rgba(128, 90, 213, 0.28);
 }
 
